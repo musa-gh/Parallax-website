@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.backround-img {
+  background-image: url(./img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+.span1 {
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.6rem;
+  line-height: 2.5rem;
+  font-size: 3rem;
+  background-color: rgba(0, 0, 0, 0.738);
+  color: white;
+}
+.sec1 {
+  font-size: 1rem;
+  text-align: center;
+  padding: 3rem 5rem;
+  display: block;
+  background-color: rgb(248, 247, 247);
+}
