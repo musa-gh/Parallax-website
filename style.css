@@ -2,9 +2,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
 }
 .backround-img {
   background-image: url(./img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+.backround-img2 {
+  background-image: url(./img/bg1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+.backround-img3 {
+  background-image: url(./img/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+.backround-img4 {
+  background-image: url(./img/bg4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+.backround-img5 {
+  background-image: url(./img/bg1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,10 +75,33 @@
   background-color: rgba(0, 0, 0, 0.738);
   color: white;
 }
-.sec1 {
+.sec {
   font-size: 1rem;
   text-align: center;
   padding: 3rem 5rem;
   display: block;
-  background-color: rgb(248, 247, 247);
+  background-color: #f1f1f1;
+  line-height: 2rem;
+  color: rgb(96, 95, 95);
+}
+#sec1 {
+  background-color: rgb(39, 39, 39);
+  color: #ddd;
+}
+#png {
+  width: 300px;
+}
+.footer {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgb(168, 166, 166);
+  color: rgb(19, 20, 22);
+}
+.aclass {
+  text-decoration: none;
+  color: rgb(244, 68, 37);
+}
+#sec2 {
+  background-color: rgb(113, 113, 113);
+  color: #ddd;
 }
